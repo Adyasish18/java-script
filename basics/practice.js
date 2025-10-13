@@ -1,2 +1,6 @@
-const accountid=9553;
-console.log(accountid);
+    let a=10;
+
+{
+    console.log(a);
+
+}
