@@ -27,7 +27,7 @@ const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 // const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 
@@ -64,7 +64,7 @@ const course = {
 
 // course.courseInstructor
 
-// const {courseInstructor: instructor} = course
+const {courseInstructor:instructor} = course
 
 // console.log(courseInstructor);
 // console.log(instructor);
@@ -75,8 +75,8 @@ const course = {
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
