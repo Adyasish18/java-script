@@ -1,4 +1,5 @@
-
+// A function in JavaScript is a block of code designed to perform a specific task.
+// You can define it once and reuse it anywhere in your program.
 function sayMyName(){
     console.log("H");
     console.log("I");
@@ -12,14 +13,12 @@ function sayMyName(){
 
 // function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
+    // console.log(number1 + number2);
 // }
 
 function addTwoNumbers(number1, number2){
-
-    // let result = number1 + number2
-    // return result
-    return number1 + number2
+    let result = number1 + number2
+    return result
 }
 
 const result = addTwoNumbers(3, 5)
@@ -39,10 +38,10 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1,val2, ...num1){
     return num1
 }
-
+// The rest operator (...) gathers all extra arguments into an array.
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
@@ -55,10 +54,10 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({
-    username: "sam",
-    price: 399
-})
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
 
 const myNewArray = [200, 400, 100, 600]
 
