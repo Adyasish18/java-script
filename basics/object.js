@@ -16,6 +16,8 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
+console.log(Object.keys(JsUser));
+
 // an object is a collection of key-value pairs — where each key (also called a property name) is a string (or Symbol), and the value can be anything (string, number, array, function, or even another object).
 
 // console.log( JsUser.email)
@@ -28,14 +30,14 @@ const JsUser = {
 // JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
-}
+// JsUser.greeting = function(){
+//     console.log("Hello JS user");
+// }
 
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
-}
-console.log(JsUser);
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello JS user, ${this.name}`);
+// }
+// console.log(JsUser);
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
