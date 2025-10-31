@@ -27,7 +27,8 @@ const temperature = 41
 
 const balance = 1000
 
-if (balance > 500) console.log("test"),console.log("test2");
+// if (balance > 500) console.log("test"),console.log("test2");
+// implicit scope means the scope or block of code that is automatically assumed by JavaScript without using curly braces {}.
 
 // if (balance < 500) {
 //     console.log("less than 500");
