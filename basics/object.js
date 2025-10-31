@@ -16,7 +16,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-console.log(Object.keys(JsUser));
+console.log(Object.keys(JsUser).length);
 
 // an object is a collection of key-value pairs — where each key (also called a property name) is a string (or Symbol), and the value can be anything (string, number, array, function, or even another object).
 
