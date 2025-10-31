@@ -1,6 +1,7 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 // foreach:The forEach() loop is a built-in array method in JavaScript.
 // It lets you execute a function once for each element in an array — very useful for clean, readable looping.
+// it doesnot return any value
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
