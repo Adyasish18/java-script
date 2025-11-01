@@ -32,7 +32,10 @@ console.log(map);
 for (const [key, value] of map) {
     console.log(key, ':-', value);
 }
+// The map() method creates a new array by applying a function to each element of an existing array.
 
+// Unlike forEach(), which just performs an action,
+// 👉 map() returns a new array with the transformed values.
 // const myObject = {
 //     game1: 'NFS',
 //     game2: 'Spiderman'
