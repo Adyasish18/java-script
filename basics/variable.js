@@ -1,3 +1,6 @@
+// What is comment?
+// The part of the code which is not executed
+
 // Variable Rules
 
 // Variable names are case sensitive; "a" and "A" are different.
