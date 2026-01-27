@@ -15,7 +15,6 @@ let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;//if we dont assign any value to the variable then js declare it to undefined
-
 // accountId = 2 // not allowed
 
 
