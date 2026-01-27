@@ -1,3 +1,12 @@
+// Variable Rules
+
+// Variable names are case sensitive; "a" and "A" are different.
+
+// Only letters, digits, underscore (_), and $ are allowed (no spaces).
+
+// The first character must be a letter, underscore (_), or $.
+
+// Reserved words cannot be used as variable names.
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
