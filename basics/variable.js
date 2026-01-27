@@ -20,3 +20,4 @@ because of issue in block scope and functional scope
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+// console.table() is a JavaScript console method used to display arrays or objects in a table format in the browser console or Node.js
