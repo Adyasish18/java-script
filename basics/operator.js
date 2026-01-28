@@ -27,3 +27,7 @@
 
 // Operands are the values or variables on which operators work.
 5+2 // 5,2 operands
+
+
+// typeof oprator
+// it is a javascript operator which is used to specify the datatype of a variable

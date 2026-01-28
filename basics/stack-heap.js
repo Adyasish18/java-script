@@ -11,13 +11,14 @@ console.log(anothername);
 anothername="Alok";
 console.log(anothername);
 console.log(username);
-
+//it will send a copy i.e, username copy is stored in anothername
 let obj={
     name :"alok",
     email:"satapthyalok23@gmai.com"
 }
 console.log(obj);
 let obj1=obj;
+//it will send a reference
 obj1.email="adyasish";
 console.log(obj);
 console.log(obj1);

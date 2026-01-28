@@ -10,6 +10,7 @@
 // The first character must be a letter, underscore (_), or $.
 
 // Reserved words cannot be used as variable names.
+
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
