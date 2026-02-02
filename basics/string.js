@@ -17,6 +17,7 @@ console.log(gamename.length);
 // const newstring="  happy  ";.trim() removes whitespace from both sides It does not remove spaces in the middle
 // console.log(newstring.trim());
 const str="alok";
+console.log(str.substr(-1,2));
 // console.log(str.replace('o','k'));//It replaces the first occurrence of the specified substring with the new value.
 console.log(str.includes("hi"));
 // This checks whether the string contains the substring "hi".
